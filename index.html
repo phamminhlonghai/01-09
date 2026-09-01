@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocalink - Tìm đúng giọng. Nâng tầm nội dung.</title>
+    <meta name="description" content="Nền tảng kết nối trực tiếp với hàng trăm Voice Talent chuyên nghiệp tại Việt Nam. Quy trình chuẩn hoá, chi phí minh bạch, bảo vệ bản quyền âm thanh." />
+    <meta property="og:title" content="Vocalink - Tìm đúng giọng. Nâng tầm nội dung." />
+    <meta property="og:description" content="Nền tảng kết nối trực tiếp với hàng trăm Voice Talent chuyên nghiệp tại Việt Nam." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var origFetch = window.fetch;
+          if (origFetch) {
+            var currentFetch = origFetch.bind(window);
+            Object.defineProperty(window, 'fetch', {
+              get: function() { return currentFetch; },
+              set: function(val) { currentFetch = val; },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#faf9fd] text-[#1a1c1e] font-sans antialiased selection:bg-[#c6e7ff] selection:text-[#001f3f]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

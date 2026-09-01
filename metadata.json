@@ -1,0 +1,6 @@
+{
+  "name": "Vocalink - Nền tảng Voice Talent Việt Nam",
+  "description": "Nền tảng kết nối trực tiếp với hàng trăm Voice Talent chuyên nghiệp tại Việt Nam. Quy trình chuẩn hoá, chi phí minh bạch, bảo vệ bản quyền âm thanh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
